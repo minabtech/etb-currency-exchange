@@ -13,6 +13,8 @@ const getRate = () => new Promise((resolve, reject) => {
 
             let data = $("table").parsetable();
 
+            if(!data || data.length == 0) return resolve([]);
+
             let rate = [];
             for (let i = 1, l = data[0].length; i < l; i++) {
                 rate.push({
