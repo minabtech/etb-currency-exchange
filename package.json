@@ -13,8 +13,8 @@
   "author": "Minab-Tech",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.12",
     "cheerio-tableparser": "1.0.1",
-    "request": "2.85.0"
+    "request": "^2.88.2"
   }
 }
